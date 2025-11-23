@@ -29,7 +29,8 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
+!web-portal/package-lock.json
+!driver-app/package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/

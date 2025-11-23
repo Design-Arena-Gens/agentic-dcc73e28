@@ -1,0 +1,103 @@
+.lekya-logistics {
+    max-width: 1200px;
+}
+
+.lekya-panels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.lekya-panel {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 1rem;
+    flex: 1 1 30%;
+    min-width: 320px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.lekya-map-panel {
+    margin-top: 2rem;
+    flex: 1 1 100%;
+}
+
+.lekya-panel header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.lekya-order-list,
+.lekya-driver-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.lekya-order-item,
+.lekya-driver-item {
+    border-bottom: 1px solid #e2e4e7;
+    padding: 0.75rem 0;
+}
+
+.lekya-order-item:last-child,
+.lekya-driver-item:last-child {
+    border-bottom: none;
+}
+
+.lekya-order-item button {
+    margin-top: 0.5rem;
+}
+
+.lekya-map {
+    width: 100%;
+    height: 420px;
+    background: #f7f9fc;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.lekya-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lekya-table th,
+.lekya-table td {
+    border: 1px solid #e2e4e7;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.lekya-table tbody {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.lekya-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    background: #e2e8f0;
+    font-size: 12px;
+}
+
+.lekya-badge.status-delivered {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.lekya-badge.status-transit {
+    background: #e0f2fe;
+    color: #1e3a8a;
+}
+
+.lekya-badge.status-pending {
+    background: #fef3c7;
+    color: #92400e;
+}
